@@ -1,3 +1,5 @@
+# source: https://www.mikulskibartosz.name/how-to-reduce-memory-usage-in-pandas/
+
 def reduce_mem_usage(df):
     start_mem = df.memory_usage().sum() / 1024 ** 2
     print('Memory usage of dataframe is {:.2f} MB'.format(start_mem))
